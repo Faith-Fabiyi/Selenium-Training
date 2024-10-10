@@ -10,6 +10,6 @@ public class HomePage extends BasePage {
 
     public FormsPage goToForms() {
         click(formsCard);
-        return new MichaelPage();
+        return new FormsPage();
     }
 }
